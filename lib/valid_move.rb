@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move?(array, index)
-if array[index].between?(0, 8) && array[index] == " "|| array[index] =="" || array[index] == nil
+if array[index].between?(1, 9) && array[index] == " "|| array[index] =="" || array[index] == nil
   true
 end
 end
